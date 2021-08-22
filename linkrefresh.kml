@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <NetworkLink>
+      <Name>Local kml</Name>
+      <Link>
+        <href>https://firms.modaps.eosdis.nasa.gov/data/active_fire/c6/kml/MODIS_C6_USA_contiguous_and_Hawaii_24h.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>				
+                   
