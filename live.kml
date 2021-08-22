@@ -1,78 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>test5</name>
-	<gx:CascadingStyle kml:id="__managed_style_2ED0CA999C1CA292C599">
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_14C4E806911CA292C599">
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_04D7578AE91CA292C599">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_14C4E806911CA292C599</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_2ED0CA999C1CA292C599</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Placemark id="0ABE7A91101CA292C598">
-		<name>pointgc5</name>
-		<!-- <LookAt>
-			<longitude>21.09094494224239</longitude>
-			<latitude>39.75780091998883</latitude>
-			<altitude>548.2047101335631</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30.0000337356746</gx:fovy>
-			<range>241378.6428578943</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt> -->
-		<styleUrl>#__managed_style_04D7578AE91CA292C599</styleUrl>
-		<Point>
-			<coordinates>20.98,38.97,619.7706190519631</coordinates>
-		</Point>
-	</Placemark>
-</Document>
+	<Document>
+		<name>test5</name>
+		<gx:CascadingStyle kml:id="__stylehigh">
+			<Style>
+				<IconStyle>
+					<scale>1.2</scale>
+					<Icon>
+						<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+					</Icon>
+					<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				</IconStyle>
+				<LabelStyle></LabelStyle>
+				<LineStyle>
+					<color>ff2dc0fb</color>
+					<width>6</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>40ffffff</color>
+				</PolyStyle>
+				<BalloonStyle>
+					<displayMode>hide</displayMode>
+				</BalloonStyle>
+			</Style>
+		</gx:CascadingStyle>
+		<gx:CascadingStyle kml:id="__stylenormal">
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+					</Icon>
+					<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				</IconStyle>
+				<LabelStyle></LabelStyle>
+				<LineStyle>
+					<color>ff2dc0fb</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>40ffffff</color>
+				</PolyStyle>
+				<BalloonStyle>
+					<displayMode>hide</displayMode>
+				</BalloonStyle>
+			</Style>
+		</gx:CascadingStyle>
+		<StyleMap id="__style_pin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#__stylenormal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#__stylehigh</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder>
+			<name> folder 1 </name>
+			<Placemark id="0ABE7A91101CA292C598">
+				<name>pointgc6</name>
+				<styleUrl>#__style_pin</styleUrl>
+				<Point>
+					<coordinates>20.98,38.97,619.7706190519631</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
 </kml>
