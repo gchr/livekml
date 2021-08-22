@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <NetworkLink>
+      <Name>Local kml</Name>
+      <Link>
+        <href>https://bitbucket.org/gchr/livekml/raw/HEAD/live.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>15</refreshInterval>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>				
+              
