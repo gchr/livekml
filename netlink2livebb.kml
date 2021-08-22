@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
   <Document>
+    <name>netlink2livebb.kml</name>
+    <open>1</open>
     <NetworkLink>
-      <Name>Local kml</Name>
+      <name>ttt Network Link</name>
+      <open>1</open>
       <Link>
         <href>https://bitbucket.org/gchr/livekml/raw/HEAD/live.kml</href>
         <refreshMode>onInterval</refreshMode>
-        <refreshInterval>15</refreshInterval>
+        <refreshInterval>20</refreshInterval>
+        <viewRefreshMode>onStop</viewRefreshMode>
       </Link>
     </NetworkLink>
   </Document>
-</kml>				
-              
+</kml>
