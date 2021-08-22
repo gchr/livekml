@@ -4,7 +4,7 @@
     <NetworkLink>
       <Name>Local kml</Name>
       <Link>
-        <href>https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/kml/MODIS_C6_1_Europe_24h.kml</href>
+        <href>https://raw.githubusercontent.com/gchr/livekml/master/live.kml</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
       </Link>
