@@ -6,7 +6,7 @@
       <Link>
         <href>https://raw.githubusercontent.com/gchr/livekml/master/live.kml</href>
         <refreshMode>onInterval</refreshMode>
-        <refreshInterval>3600</refreshInterval>
+        <refreshInterval>15</refreshInterval>
       </Link>
     </NetworkLink>
   </Document>
