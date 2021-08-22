@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>test4</name>
+	<name>test5</name>
 	<gx:CascadingStyle kml:id="__managed_style_2ED0CA999C1CA292C599">
 		<Style>
 			<IconStyle>
@@ -58,7 +58,7 @@
 		</Pair>
 	</StyleMap>
 	<Placemark id="0ABE7A91101CA292C598">
-		<name>pointgc1</name>
+		<name>pointgc5</name>
 		<!-- <LookAt>
 			<longitude>21.09094494224239</longitude>
 			<latitude>39.75780091998883</latitude>
