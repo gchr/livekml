@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>test2</name>
+	<name>test3</name>
 	<gx:CascadingStyle kml:id="__managed_style_2ED0CA999C1CA292C599">
 		<Style>
 			<IconStyle>
@@ -59,7 +59,7 @@
 	</StyleMap>
 	<Placemark id="0ABE7A91101CA292C598">
 		<name>pointgc</name>
-		<LookAt>
+		<!-- <LookAt>
 			<longitude>21.09094494224239</longitude>
 			<latitude>39.75780091998883</latitude>
 			<altitude>548.2047101335631</altitude>
@@ -68,10 +68,10 @@
 			<gx:fovy>30.0000337356746</gx:fovy>
 			<range>241378.6428578943</range>
 			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
+		</LookAt> -->
 		<styleUrl>#__managed_style_04D7578AE91CA292C599</styleUrl>
 		<Point>
-			<coordinates>22.15,38.53,619.7706190519631</coordinates>
+			<coordinates>20.98,38.97,619.7706190519631</coordinates>
 		</Point>
 	</Placemark>
 </Document>
